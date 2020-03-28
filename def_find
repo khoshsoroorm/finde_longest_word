@@ -1,0 +1,13 @@
+def find_longest_word(input_string):
+    
+    s = input_string.split()
+    maxword = ''
+    for word in s:
+        if len(word) >= len(maxword):
+            maxword = word
+        
+    return maxword
+          
+        
+
+#print(find_longest_word('salam chetori khobam to chetorO'))
